@@ -7,6 +7,9 @@ public class Testobj {
 
 	public static void main(String[] args) {
 		
+		
+		System.out.println("welcome ");
+		
 		Employee e=new Employee();
 		e.setEmpid(1);
 		e.setEname("ABC");
