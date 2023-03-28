@@ -1,0 +1,21 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="emp1" class="com.employ.Employee">
+		<property name="empid" >
+		<value>1</value>
+		</property>
+		
+		<property name="ename" >
+		<value>ABC</value>
+		</property>
+		
+		<property name="empsalary" >
+		<value>10000</value>
+		</property>
+		
+	</bean>
+
+</beans>
